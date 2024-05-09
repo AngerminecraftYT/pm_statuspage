@@ -91,7 +91,7 @@ export default function Home() {
                     <p>Players: 0/100</p>
                   </div>
                   <div className={`${styles.serverItemServerBadgeHolder}`}>
-                    <div className={`${styles.badge}`} style={{'border': '2px solid rgb(43, 190, 35)'}}>
+                    <div className={`${styles.badge}`} style={{'border': '2px solid rgb(217, 25, 25)'}}>
                       <img src='/error.png'></img>
                     </div>
                   </div>
