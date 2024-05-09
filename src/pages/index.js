@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ProjectName Status Page</title>
+        <title>Project Midas</title>
         <meta name="description" content="A boilerplate Status Page generated for Momentum users." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -22,7 +22,7 @@ export default function Home() {
         <div className={`${styles.rightSide}`}>
           <header>
             <Image src={'/logo.png'} width='60' height='60' />
-            <h2>ProjectName Status Page</h2>
+            <h2>Project Midas Status Page</h2>
           </header>
           <div className={`${styles.generalInfoContainer}`}>
               <div className={`${styles.generalInfoTemplate}`}>
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
               </div>
               <footer>
-                <p>Status page designed for <Link href='https://github.com/Nexus-FN/Momentum/tree/main' style={{'color': 'rgb(29, 171, 214)'}}>Momentum</Link> users | Made with ❤️ by NexusFN</p>
+                <p>Join the Project Midas discord! .gg/fsZsxKn4zu</p>
               </footer>
           </div>
         </div>
