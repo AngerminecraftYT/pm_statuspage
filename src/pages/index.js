@@ -55,7 +55,7 @@ export default function Home() {
                   <p>Season</p>
                 </div>
                 <div className={`${styles.generalInfoTemplateText}`}>
-                    Chapter 2 Season 2
+                    C2S2
                 </div>
               </div>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
                   </div>
                   <div className={`${styles.serverItemServerBadgeHolder}`}>
                     <div className={`${styles.badge}`} style={{'border': '2px solid rgb(226, 134, 44)'}}>
-                      <img src='/waiting.png'></img>
+                      <img src='/in-progress.png'></img>
                     </div>
                   </div>
                 </div>
@@ -93,14 +93,14 @@ export default function Home() {
                   </div>
                   <div className={`${styles.serverItemServerBadgeHolder}`}>
                     <div className={`${styles.badge}`} style={{'border': '2px solid rgb(43, 190, 35)'}}>
-                      <img src='/waiting.png'></img>
+                      <img src='/error.png'></img>
                     </div>
                   </div>
                 </div>
               </div>
               <div className={`${styles.serverItemTemplate}`}>
                 <div className={`${styles.serverItemTemplateIcon}`}>
-                  <img src='/error.png'></img>
+                  <img src='/server.png'></img>
                 </div>
                 <div className={`${styles.serverItemTemplateText}`}>
                   <div className={`${styles.serverItemServerInfo}`}>
