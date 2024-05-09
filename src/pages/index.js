@@ -52,10 +52,10 @@ export default function Home() {
                   <div className={`${styles.generalInfoTemplateIcon}`}>
                     <img src='/momentum.png'></img>
                   </div>
-                  <p>Momentum Version</p>
+                  <p>Season</p>
                 </div>
                 <div className={`${styles.generalInfoTemplateText}`}>
-                    N/A
+                    Chapter 2 Season 2
                 </div>
               </div>
           </div>
@@ -67,14 +67,14 @@ export default function Home() {
                 <div className={`${styles.serverItemTemplateText}`}>
                   <div className={`${styles.serverItemServerInfo}`}>
                     <p>Region: N/A</p>
-                    <p>Gamemode: N/A</p>
+                    <p>Gamemode: Solo</p>
                   </div>
                   <div className={`${styles.serverItemServerPlayers}`}>
                     <p>Players: 0/100</p>
                   </div>
                   <div className={`${styles.serverItemServerBadgeHolder}`}>
                     <div className={`${styles.badge}`} style={{'border': '2px solid rgb(226, 134, 44)'}}>
-                      <img src='/in-progress.png'></img>
+                      <img src='/waiting.png'></img>
                     </div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function Home() {
               </div>
               <div className={`${styles.serverItemTemplate}`}>
                 <div className={`${styles.serverItemTemplateIcon}`}>
-                  <img src='/server.png'></img>
+                  <img src='/error.png'></img>
                 </div>
                 <div className={`${styles.serverItemTemplateText}`}>
                   <div className={`${styles.serverItemServerInfo}`}>
