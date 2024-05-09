@@ -21,7 +21,6 @@ export default function Home() {
         </div>
         <div className={`${styles.rightSide}`}>
           <header>
-            <Image src={'/loogo.png'} width='60' height='60' />
             <h2>Project Midas</h2>
           </header>
           <div className={`${styles.generalInfoContainer}`}>
