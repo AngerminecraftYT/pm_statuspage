@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Project Midas</title>
-        <meta name="description" content="A boilerplate Status Page generated for Momentum users." />
+        <meta name="description" content="See the active status of the OGFN Project: Project Midas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,8 +21,8 @@ export default function Home() {
         </div>
         <div className={`${styles.rightSide}`}>
           <header>
-            <Image src={'/logo.png'} width='60' height='60' />
-            <h2>Project Midas Status Page</h2>
+            <Image src={'/loogo.png'} width='60' height='60' />
+            <h2>Project Midas</h2>
           </header>
           <div className={`${styles.generalInfoContainer}`}>
               <div className={`${styles.generalInfoTemplate}`}>
